@@ -1,0 +1,22 @@
+{
+  "purpose": "Conditional accelerated localization study",
+  "accelerated_current_ua_cm2": 100.0,
+  "natural_service_life_interpretation": false,
+  "tensile_strength_mpa": 3.79,
+  "elastic_modulus_pa": 24526666666.666668,
+  "phasefield_length_m": 0.005,
+  "fracture_energy_n_m": 27.764259611609436,
+  "leakage_law": "pressure-dependent finite-rate leakage law",
+  "pressure_scale": 1.1,
+  "leakage_rate_per_year": 500.0,
+  "connectivity": "6-neighbour face connectivity to the true top surface",
+  "domain_m": [
+    0.08,
+    0.08,
+    0.02
+  ],
+  "axial_boundary": "zero axial displacement and phase-field drive on symmetry end planes",
+  "steel_interface_width_m": 0.0025,
+  "itz_width_m": 0.003,
+  "surface_gauge_length_m": 0.02
+}

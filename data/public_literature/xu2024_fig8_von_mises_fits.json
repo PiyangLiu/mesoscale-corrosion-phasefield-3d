@@ -1,0 +1,39 @@
+{
+  "left": {
+    "baseline_mm": 5.776173264027042e-14,
+    "amplitude_mm": 1.4454098552290455,
+    "kappa": 0.1792191033369612,
+    "direction_deg": 347.43563830818994,
+    "rmse_mm": 0.06548540096005512,
+    "classified_pixel_fraction_mean": 0.9045950155763239
+  },
+  "center": {
+    "baseline_mm": 0.8733910663831965,
+    "amplitude_mm": 0.5486016329427397,
+    "kappa": 3.4390698189313897,
+    "direction_deg": 245.86172682863005,
+    "rmse_mm": 0.09949190931749957,
+    "classified_pixel_fraction_mean": 0.9199766355140185
+  },
+  "right": {
+    "baseline_mm": 1.610195925724808e-12,
+    "amplitude_mm": 1.6159167033154893,
+    "kappa": 0.2592243486106431,
+    "direction_deg": 337.265818134687,
+    "rmse_mm": 0.16341873516675667,
+    "classified_pixel_fraction_mean": 0.8473520249221185
+  },
+  "pooled_three_rebars": {
+    "baseline_mm": 9.255663851747036e-15,
+    "amplitude_mm": 1.3803690337107908,
+    "kappa": 0.18141140035586287,
+    "direction_deg": 323.01234420037446,
+    "rmse_mm": 0.09256423889331768
+  },
+  "_coordinate_mapping": {
+    "source_geometry": "Fig. 8 Left/Center/Right are three parallel rebars in the multiple-rebar specimen",
+    "published_angle_reference": "Fig. 3 defines theta=180 degrees on the cover-facing side",
+    "model_angle_reference": "model angle zero is the cover-facing direction",
+    "conversion": "model_angle_deg = (published_angle_deg - 180) mod 360"
+  }
+}

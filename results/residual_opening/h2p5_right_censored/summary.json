@@ -1,0 +1,57 @@
+{
+  "case_id": "xu2024_profile_h2p5_adaptive_seed880",
+  "status": "right_censored",
+  "complete_trajectory": false,
+  "right_censored_at_endpoint": true,
+  "planned_horizon_h": 600.0,
+  "completed_time_h": 145.625,
+  "completion_fraction": 0.24270833333333333,
+  "opening_threshold_mm": 0.05,
+  "unload_trigger_mm": 0.051,
+  "opening_threshold_reached": false,
+  "unload_trigger_reached": false,
+  "unloading_performed": false,
+  "final": {
+    "pressure_mpa": 33.40279087905294,
+    "maximum_damage": 0.9999491675777706,
+    "surface_opening_mm": 0.03511605711038255,
+    "retained_rust_m": 7.697209685566863E-05,
+    "lost_rust_m": 8.066182145662814E-06,
+    "generated_rust_m": 8.503827900133146E-05,
+    "retained_fraction": 0.9051464559209091,
+    "lost_fraction": 0.09485354407909079,
+    "contact_complementarity_residual": 1.172969814302555E-05,
+    "minimum_contact_separation_m": -6.625665721135527E-10,
+    "mechanics_residual": 1.7803574725844564E-07,
+    "phase_field_residual": 9.735942011068192E-07,
+    "damage_coupling_iterations": 13,
+    "contact_fallback": 0.0
+  },
+  "trajectory_maxima": {
+    "pressure_mpa": 33.40279087905294,
+    "maximum_damage": 0.9999491675777706,
+    "surface_opening_mm": 0.03511605711038255,
+    "mechanics_residual": 9.967478870327436E-07,
+    "phase_field_residual": 9.99933319818257E-07,
+    "contact_complementarity_residual": 6.560389560128888E-05,
+    "contact_fallback_steps": 1
+  },
+  "damage_event_times_year": {
+    "0.05": 0.0048482774355464294,
+    "0.1": 0.005989048596851471,
+    "0.2": 0.007415012548482774,
+    "0.35": 0.008840976500114077
+  },
+  "spanning_event_times_year": {
+    "0.05": 0.006844626967830253,
+    "0.2": 0.01026694045174538
+  },
+  "opening_event_times_year": {
+    "0.005": 0.008840976500114077,
+    "0.01": 0.011122518822724161,
+    "0.05": null
+  },
+  "censoring_reason": "reported_trajectory_endpoint",
+  "restart_state": "restart_state.pkl",
+  "history": "history.csv"
+}

@@ -1,0 +1,6 @@
+{
+  "solver": "corrosion3d.solver.run_accelerated_corrosion_3d",
+  "grid_spacing_mm": 5.0,
+  "total_hours": 3500.0,
+  "dt_hours": 25.0
+}

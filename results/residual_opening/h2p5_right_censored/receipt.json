@@ -1,0 +1,11 @@
+{
+  "case_id": "xu2024_profile_h2p5_adaptive_seed880",
+  "status": "right_censored",
+  "right_censoring_time_h": 145.625,
+  "restart_supported": true,
+  "restart_source": "restart_state.pkl",
+  "summary_file": "summary.json",
+  "history_file": "history.csv",
+  "created_utc": "2026-11-15T17:53:30.031202+08:00",
+  "endpoint_definition": "right_censoring_time"
+}

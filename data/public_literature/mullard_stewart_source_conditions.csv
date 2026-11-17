@@ -1,0 +1,8 @@
+item,value,note
+source,"Mullard and Stewart 2011, Figs. 12 and 13",Series SV internal-bar crack propagation curves
+x_axis,Time from Start of Test (hours),Axis label read from the published figures; curves correspond to the POT-monitored propagation stage after first visible cracking
+y_axis,Crack Width (mm),Axis label read from the published figures
+time_correction,corrected to nominal 100 microA/cm2,Paper states initiation and propagation times were multiplied by icorr(exp)/100
+crack_width_origin,POT monitoring after crack initiation,The paper states POTs were glued immediately after crack initiation; first cracking was taken as w=0.05 mm
+simulated_current,100 microA/cm2 = 1.0 A/m2,Nominal corrected current used for all Series SV benchmark simulations
+dt_hours,25.0,Accelerated-current time increment used in all benchmark simulations

@@ -1,0 +1,23 @@
+{
+  "case_id": "accelerated_h5_seed880_interface1.00",
+  "grid_mm": 5.0,
+  "seed": 880,
+  "interface_factor": 1.0,
+  "fracture_energy_n_m": 27.764259611609436,
+  "runtime_s": 0.6239241000148468,
+  "completed_hours": 25.78125,
+  "peak_pressure_mpa": 0.0,
+  "max_damage": 0.5400057414400953,
+  "spanning_d0p05": true,
+  "spanning_d0p05_volume_m3": 5.6875e-05,
+  "spanning_d0p20": true,
+  "spanning_d0p20_volume_m3": 1.825e-05,
+  "spanning_d0p05_year": 0.002941050650239562,
+  "spanning_d0p20_year": 0.002941050650239562,
+  "opening_envelope_mm": 0.0,
+  "opening_0p05mm_year": null,
+  "max_mechanics_residual": 1.3097632185026435e-14,
+  "max_coupling_residual": 0.0,
+  "max_phasefield_residual": 8.796876829819683e-07,
+  "lost_rust_fraction": 0.05301126536249858
+}

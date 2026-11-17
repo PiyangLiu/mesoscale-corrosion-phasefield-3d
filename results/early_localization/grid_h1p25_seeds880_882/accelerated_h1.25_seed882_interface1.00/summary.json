@@ -1,0 +1,23 @@
+{
+  "case_id": "accelerated_h1.25_seed882_interface1.00",
+  "grid_mm": 1.25,
+  "seed": 882,
+  "interface_factor": 1.0,
+  "fracture_energy_n_m": 27.764259611609436,
+  "runtime_s": 404.581091799977,
+  "completed_hours": 26.5625,
+  "peak_pressure_mpa": 0.0,
+  "max_damage": 0.5366295995303725,
+  "spanning_d0p05": true,
+  "spanning_d0p05_volume_m3": 5.925000000000001e-05,
+  "spanning_d0p20": true,
+  "spanning_d0p20_volume_m3": 1.9537109375e-05,
+  "spanning_d0p05_year": 0.0030301733972165185,
+  "spanning_d0p20_year": 0.0030301733972165185,
+  "opening_envelope_mm": 0.0,
+  "opening_0p05mm_year": null,
+  "max_mechanics_residual": 5.296275583187857e-07,
+  "max_coupling_residual": 0.0,
+  "max_phasefield_residual": 9.775759737028905e-07,
+  "lost_rust_fraction": 0.08324957330371564
+}

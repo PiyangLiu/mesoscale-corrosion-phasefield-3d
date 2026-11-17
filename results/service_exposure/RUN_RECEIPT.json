@@ -1,0 +1,52 @@
+{
+  "archive": "service-exposure and accelerated-current results reported in the article",
+  "release_source_hashes": {
+    "paper_studies.py": "43e3a2cd503e311a393f86d2815dbc11ca3fb0c055e05b1130d8609c2ca256e0",
+    "paper_figures.py": "0bc340545c4329f8cab3e7cf12c722e7d79cb158932ea205a5b637295c858912",
+    "service_exposure_horizon.py": "73a407377dc1c78c5c7ae173b515da39a4ebd7dae563c36c04a3d955a8d6cb0f",
+    "mullard_stewart_cases.py": "9169eaf79bd0a5abe529a34930ddd09c06f7412a9b7137eba268ee2adcc972e2",
+    "src/corrosion3d/core.py": "243b72fbce576c47c12eda233297a1a578d1a1ffc6e0fbd0cda5472780cd48e6",
+    "src/corrosion3d/simulation.py": "eede16c5c05910a65c5ad65a698129449957b62e1e511e76c79967c7e124d8df",
+    "src/corrosion3d/solver.py": "97e1b0e8a81346aa89b8fa2ad5b48549f783a751b11b6b288e2a57cb8810bae7",
+    "src/corrosion3d/cli.py": "20a17b38c75a9454302aa9b04dd0996a0fb017dd38dff8e55a856ecbea1b9a42"
+  },
+  "solver_chains": {
+    "service_exposure": "corrosion3d.solver.run_full_3d",
+    "accelerated_current": "corrosion3d.solver.run_accelerated_corrosion_3d"
+  },
+  "depassivation_clock": "end of first accepted transport step satisfying free chloride greater than or equal to the critical value",
+  "result_groups": [
+    "baseline",
+    "time_step",
+    "parameters",
+    "axial_control",
+    "mesh",
+    "mullard_stewart_cases",
+    "service_horizon_h5",
+    "service_horizon_h2p5"
+  ],
+  "extended_horizon_cases": [
+    {
+      "configuration": "configs/service_horizon_h5.json",
+      "result_directory": "results/service_exposure/service_horizon_h5",
+      "grid_spacing_m": 0.005,
+      "steel_interface_width_m": 0.0025,
+      "surface_observation_depth_m": 0.01,
+      "depassivation_time_year": 13.0,
+      "peak_pressure_mpa": 4.2566228024,
+      "final_maximum_damage": 0.01365133184,
+      "final_surface_opening_mm": 0.0
+    },
+    {
+      "configuration": "configs/service_horizon_h2p5.json",
+      "result_directory": "results/service_exposure/service_horizon_h2p5",
+      "grid_spacing_m": 0.0025,
+      "steel_interface_width_m": 0.0025,
+      "surface_observation_depth_m": 0.01,
+      "depassivation_time_year": 6.5,
+      "peak_pressure_mpa": 4.2567068820,
+      "final_maximum_damage": 0.01557189215,
+      "final_surface_opening_mm": 0.0
+    }
+  ]
+}
